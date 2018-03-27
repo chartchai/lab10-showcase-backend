@@ -16,4 +16,4 @@ script:
 - docker-compose -H "$DOCKER_HOST" up -d
 cache:
   directories:
-- "$HOME/.m2"
+  - "$HOME/.m2"
